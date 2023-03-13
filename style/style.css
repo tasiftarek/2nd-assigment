@@ -1,0 +1,291 @@
+body{
+    margin: 0;
+    padding:0;
+    border:0;
+
+
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 100px;
+}
+
+.nav-title {
+    font-weight: 700;
+    font-size: 40px;
+
+}
+
+nav ul {
+    display: flex;
+
+}
+
+nav li {
+    list-style: none;
+    margin-left: 70px;
+}
+
+.text {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.button-one {
+    padding: 10px;
+    color:aliceblue;
+    background:orange;
+    border:none;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+.f-images{
+    width: 100%;
+}
+header{
+    background-color: rgb(232, 228, 222);
+}
+main{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-top: 50px;
+    padding-left: 20%;
+    padding-right: 20%;
+
+}
+
+.s-images{
+   display:grid;
+   grid-template-columns: 1fr 1fr;
+   grid-gap:20px;
+   flex-wrap: wrap;
+   margin-right: 20px;
+   
+   
+
+}
+.s-images > img {
+    object-fit: contain;
+    width: 250px;
+
+}
+.text-our{
+    font-family: Arial, Helvetica, sans-serif;
+    padding:40px;
+    border:50px;
+    padding-top: 40%; 
+    width: 100%;
+}
+samp{
+    font-family: 'Courier New', Courier, monospace;
+    color:cadetblue;
+}
+.full{
+    color:orange;
+}
+.button-two{
+    padding: 10px;
+    color:aliceblue;
+    background:orange;
+    border:none;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+.continar{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 5% 15%;
+    grid-gap: 80px;
+}
+.text-full {
+    font-family: system-ui; 
+    opacity: .7;
+
+}
+.text-full > h1 {
+    border-left: 4px solid ;
+    border-color: orange;
+    padding: 10px;
+   font-family: "Gill Sans", sans-serif;
+   font-weight: 800;
+   font-size: 30px;
+}
+.div1{
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow:0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+.div1 > h4 {
+    margin:0;
+}
+
+.div1 > p {
+    opacity: .7;
+}
+.card{
+    display: grid;
+    grid-gap:15px;
+}
+.t-images{
+
+}
+.t-images >img {
+    width: 100%;
+}
+.class{
+    position: relative;
+    top:-60px;
+    right:40px;
+    font-size: 2rem;
+    padding: 40px 50px;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    color:aliceblue;
+}
+.class > h2 {
+    margin:0;
+    font-size: 50px;
+}
+.class >h4 {
+    margin: 0;
+    font-size: 20px;
+}
+.some{
+    padding-left: 170px;
+}
+.some > h2 {
+    font-family: "Gill Sans", sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+} 
+.some >h6 {
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: .6;
+    font-size: 10px;
+    max-width: 380px;
+    line-height: 1.6em;
+}
+.box-images{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+.class-one{
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: orange;
+    text-align: center;
+    padding-top: 50px;
+    padding: 20px 20px;
+}
+.class-one >img {
+    width: 30px;
+}
+.class-one > h2 {
+    margin: 0px;
+    font-family: "Gill Sans", sans-serif;
+}
+.class-one > h4 {
+    margin: 0px;
+    font-size: 13px;
+}
+.class-two{
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: orange;
+    text-align: center;
+    padding-top: 50px;
+    padding: 20px 20px;
+}
+.class-two >img {
+    width: 20px;
+}
+.class-two > h2 {
+    margin: 0px;
+    font-family: "Gill Sans", sans-serif;  
+}
+.class-two > h4 {
+    margin: 0px;
+    font-size: 13px;
+}
+.class-three{
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: orange;
+    text-align: center;
+    padding-top: 50px;
+    padding: 20px 20px;  
+}
+.class-three > img{
+    width: 20px;
+}
+.class-three > h2{
+    margin: 0px;
+    font-family: "Gill Sans", sans-serif; 
+}
+.class-three > h4{
+    margin: 0px;
+    font-size: 13px;  
+}
+.class-four{
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: orange;
+    text-align: center;
+    padding-top: 50px;
+    padding: 20px 20px;    
+}
+.class-four >img {
+    width: 20px;
+}
+.class-four > h2 {
+    margin: 0px;
+    font-family: "Gill Sans", sans-serif;  
+}
+.class-four > h4 {
+    margin: 0px;
+    font-size: 13px;
+}
+.continar-one{
+    text-align: center;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+    padding-top: 50px;
+}
+.continar-two{
+    margin-top: 0px;
+    text-align: center;
+    opacity: .7;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    font-size: 10px;
+}
+.nav-images{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 40px;
+    /* width: 40px; */
+    padding-bottom: 60px;
+}
+.nav-images >img {
+    width: 100px;
+}
+.last{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(232, 228, 222);
+    margin-bottom: 80px;
+    margin-left: 160px;
+    margin-right: 160px;
+    border-radius: 5px;
+    font-family: system-ui;
+    
+}
